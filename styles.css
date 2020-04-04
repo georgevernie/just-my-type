@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+#targetChar {
+  position: absolute;
+  left: 29px;
+  margin-top: 5px;
+  border: solid black 2px;
+  width: 16px;
+  height: 24px;
+  background-color: cyan;
+}
+
+.keyboard-container {
+  margin-top: 12rem;
+}
+
+#target-letter {
+  font-size: 38px;  
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+}
+
+#feedback {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 6px;
+}
+.glyphicon-ok {
+  color: #1DA237
+}
+
+.glyphicon-remove {
+  color : #CD2626
+}
