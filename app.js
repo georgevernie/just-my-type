@@ -6,7 +6,7 @@ let sentenceCharCount = 0;     // Used for tracking which char is the excepted c
 let sentenceCount = 0;         // Used for tracking which string the program is on in sentences.
 let intialize = false;         // Used for intial sentence appending.
 let wordCount = 0;             // Used for tracking number of words throughout program.
-let sentences = ["ten ate neite ate nee enet ite ate inet ent eate",
+const sentences = ["ten ate neite ate nee enet ite ate inet ent eate",
     "Too ato too nOt enot one totA not anot tOO aNot",
     "oat itain oat tain nate eate tea anne inant nean",
     "itant eate anot eat nato inate eat anot tain eat",
@@ -20,12 +20,12 @@ setInterval(
 );
 
 //DOM Selectors
-let upperCaseKeyBoard = $("#keyboard-upper-container");
-let lowerCaseKeyBoard = $("#keyboard-lower-container");
-let currentSentence = $("#sentence");
-let sentenceScoreBoard = $("#feedback");
-let expectedLetter = $("#target-letter");
-let expectedLetterHighlighter = $("#targetChar");
+const upperCaseKeyBoard = $("#keyboard-upper-container");
+const lowerCaseKeyBoard = $("#keyboard-lower-container");
+const currentSentence = $("#sentence");
+const sentenceScoreBoard = $("#feedback");
+const expectedLetter = $("#target-letter");
+let expectedLetterHighlighter = $("#targetChar");   //re-assigned later in code.
 
 //Function Calls:
 hideUpperCaseKeyBoardWhenPgLoaded();
