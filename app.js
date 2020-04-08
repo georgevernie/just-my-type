@@ -42,14 +42,14 @@ function hideUpperCaseKeyBoardWhenPgLoaded() {
 function changeKeyBoardToUpperOrLowerCaseOnShift() {
     $(document).keydown(function (event) {
         let keyChar = event.key;
-        if (keyChar == "Shift") {
+        if (keyChar === "Shift") {
             lowerCaseKeyBoard.hide();
             upperCaseKeyBoard.show();
         }
     });
     $(document).keyup(function (event) {
         let keyChar = event.key;
-        if (keyChar == "Shift") {
+        if (keyChar === "Shift") {
             lowerCaseKeyBoard.show();
             upperCaseKeyBoard.hide();
         }
