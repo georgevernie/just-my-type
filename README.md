@@ -1,6 +1,9 @@
 # Just My Type
 Covalence
 
+## Project Final Screen Shot: 
+![picture](img/JustMyType.png)
+
 ## Info
 * You are going to build a typing game
 * This lab uses an older version of the Bootstrap UI Framework. It is already imported for you.
